@@ -1,0 +1,610 @@
+
+OK, got it
+
+    [Skip to main content](#document-title)  [![Flutter logo](/assets/images/branding/flutter/logo/default.svg) Flutter Docs](/ "Go to the Flutter docs homepage") 
+
+[search](/search "Navigate to the docs search page.") 
+
+routine
+
+* light\_mode Light* dark\_mode Dark* night\_sight\_auto Automatic
+
+apps
+
+* [![Flutter logo](/assets/images/branding/flutter/logo/default.svg) Flutter](https://flutter.dev "Flutter homepage") * [![Flutter logo](/assets/images/branding/flutter/logo/default.svg) Flutter Docs](/ "Flutter docs homepage") * [![Flutter logo](/assets/images/branding/flutter/logo/default.svg) Flutter API](https://api.flutter.dev "Flutter API reference") * * [![Dart logo](/assets/images/branding/dart/logo.svg) Dart](https://dart.dev "Dart homepage") * [![Dart logo](/assets/images/branding/dart/logo.svg) DartPad](https://dartpad.dev "DartPad playground") * [![Dart logo](/assets/images/branding/dart/logo.svg) pub.dev](https://pub.dev "pub.dev homepage")
+
+[Get started](/get-started) menu close
+
+* Get started* Set up Flutter expand\_more
+    + [Quick start](/get-started/quick)+ [Custom setup](/get-started/custom)* Install Flutter expand\_more
+      + [Overview](/install)+ [Install with VS Code](/install/with-vs-code)+ [Install manually](/install/manual)+ [Upgrade SDK](/install/upgrade)+ [SDK archive](/install/archive)+ + [Add to path](/install/add-to-path)+ [Troubleshoot](/install/troubleshoot)+ [Uninstall SDK](/install/uninstall)* Learn Flutter expand\_more
+        + [Introduction](/get-started/learn-flutter)+ [Write your first app](/get-started/codelab)+ Learn the fundamentals expand\_more
+              - [Introduction](/get-started/fundamentals)- [Intro to Dart](/get-started/fundamentals/dart)- [Widgets](/get-started/fundamentals/widgets)- [Layout](/get-started/fundamentals/layout)- [State management](/get-started/fundamentals/state-management)- [Handling user input](/get-started/fundamentals/user-input)- [Networking and data](/get-started/fundamentals/networking)- [Local data and caching](/get-started/fundamentals/local-caching)+ From another platform? expand\_more
+                - [Flutter for Android devs](/get-started/flutter-for/android-devs)- [Flutter for Jetpack Compose devs](/get-started/flutter-for/compose-devs)- [Flutter for SwiftUI devs](/get-started/flutter-for/swiftui-devs)- [Flutter for UIKit devs](/get-started/flutter-for/uikit-devs)- [Flutter for React Native devs](/get-started/flutter-for/react-native-devs)- [Flutter for web devs](/get-started/flutter-for/web-devs)- [Flutter for Xamarin.Forms devs](/get-started/flutter-for/xamarin-forms-devs)- [Introduction to declarative UI](/get-started/flutter-for/declarative)- [Flutter versus Swift concurrency](/get-started/flutter-for/dart-swift-concurrency)+ + [Samples & tutorials](/reference/learning-resources)* Stay up to date expand\_more
+          + [Release notes](/release/release-notes)+ [Breaking changes](/release/breaking-changes)+ [Compatibility policy](/release/compatibility-policy)+ + [Medium publicationopen\_in\_new](https://medium.com/flutter)+ [What's new in the docs](/release/whats-new)* App solutions expand\_more
+            + Develop with Firebase expand\_more
+              - [Overview](/data-and-backend/firebase)- [Discover Firebase for Flutteropen\_in\_new](https://firebase.google.com/docs/flutter)- [Get to know Firebase for Flutteropen\_in\_new](https://www.youtube.com/watch?v=wUSkeTaBonA)- [Add a user authentication flow to a Flutter app using FirebaseUIopen\_in\_new](https://firebase.google.com/codelabs/firebase-auth-in-flutter-apps)- [Get to know Firebase for webopen\_in\_new](https://firebase.google.com/codelabs/firebase-get-to-know-web)+ Build multi-platform games expand\_more
+                - [Overview](/resources/games-toolkit)- [Add achievements and leaderboards](/cookbook/games/achievements-leaderboard)- [Build leaderboards with Firestoreopen\_in\_new](https://firebase.google.com/codelabs/build-leaderboards-with-firestore#0)- [Add advertising](/cookbook/plugins/google-mobile-ads)- [Add multiplayer support](/cookbook/games/firestore-multiplayer)- [Add in-app purchasesopen\_in\_new](https://codelabs.developers.google.com/codelabs/flutter-in-app-purchases)- [Add user authenticationopen\_in\_new](https://firebase.google.com/codelabs/firebase-auth-in-flutter-apps)- [Debug using Crashlyticsopen\_in\_new](https://firebase.google.com/docs/crashlytics/get-started?platform=flutter)- [Intro to Flame with Flutteropen\_in\_new](https://codelabs.developers.google.com/codelabs/flutter-flame-brick-breaker)+ Monetize your app expand\_more
+                  - Integrate ads expand\_more
+                    * [Ads overview](/resources/ads-overview)* [Add advertising](/cookbook/plugins/google-mobile-ads)* [Add AdMob ads to your Flutter appopen\_in\_new](https://codelabs.developers.google.com/codelabs/admob-ads-in-flutter)* [Add an AdMob banner and native inline adsopen\_in\_new](https://codelabs.developers.google.com/codelabs/admob-inline-ads-in-flutter)* [Integrate multimedia ads (video)open\_in\_new](https://www.youtube.com/watch?v=U8x5n6RwZOo)* [Google AdMob mediationopen\_in\_new](https://developers.google.com/admob/flutter/mediation)* [Interactive Media Ads SDKopen\_in\_new](https://pub.dev/packages/interactive_media_ads)- Support payments expand\_more
+                      * [Payments overview](/resources/payments-overview)* [Google pay packageopen\_in\_new](https://pub.dev/packages/pay)- [Add in-app purchasesopen\_in\_new](https://codelabs.developers.google.com/codelabs/flutter-in-app-purchases)+ Integrate maps expand\_more
+                    - [Add Google maps to a Flutter appopen\_in\_new](https://codelabs.developers.google.com/codelabs/google-maps-in-flutter)- [Google Maps packageopen\_in\_new](https://developers.google.com/maps/flutter-package)+ [Build a news app](/resources/news-toolkit)* AI solutions expand\_more
+              + [Create with AI](/ai/create-with-ai)+ [AI Rules](/ai/ai-rules)+ AI Toolkit expand\_more
+                    - [Overview](/ai-toolkit)- [User experience](/ai-toolkit/user-experience)- [Feature integration](/ai-toolkit/feature-integration)- [Custom LLM providers](/ai-toolkit/custom-llm-providers)- [Chat client sample](/ai-toolkit/chat-client-sample)+ [Dart & Flutter MCP serveropen\_in\_new](https://dart.dev/tools/mcp-server)+ [GenUI SDK for Flutteropen\_in\_new](https://github.com/flutter/genui)+ [Firebase AI Logicopen\_in\_new](https://firebase.google.com/docs/ai-logic/get-started?platform=flutter)* * User interface* [Introduction](/ui)* Widget catalog expand\_more
+                      + [Overview](/ui/widgets)+ Design systems expand\_more
+                          - [Cupertino](/ui/widgets/cupertino)- [Material components](/ui/widgets/material)+ Base widgets expand\_more
+                            - [Accessibility](/ui/widgets/accessibility)- [Animation](/ui/widgets/animation)- [Assets](/ui/widgets/assets)- [Async](/ui/widgets/async)- [Basics](/ui/widgets/basics)- [Input](/ui/widgets/input)- [Interaction](/ui/widgets/interaction)- [Layout](/ui/widgets/layout)- [Painting](/ui/widgets/painting)- [Scrolling](/ui/widgets/scrolling)- [Styling](/ui/widgets/styling)- [Text](/ui/widgets/text)* Layout expand\_more
+                        + [Introduction](/ui/layout)+ [Build a layout](/ui/layout/tutorial)+ Lists & grids expand\_more
+                              - [Create and use lists](/cookbook/lists/basic-list)- [Create a horizontal list](/cookbook/lists/horizontal-list)- [Create a grid view](/cookbook/lists/grid-lists)- [Create lists with different types of items](/cookbook/lists/mixed-list)- [Create lists with spaced items](/cookbook/lists/spaced-items)- [Work with long lists](/cookbook/lists/long-lists)+ Scrolling expand\_more
+                                - [Overview](/ui/layout/scrolling)- [Use slivers to achieve fancy scrolling](/ui/layout/scrolling/slivers)- [Place a floating app bar above a list](/cookbook/lists/floating-app-bar)- [Create a scrolling parallax effect](/cookbook/effects/parallax-scrolling)* Adaptive & responsive design expand\_more
+                          + [Overview](/ui/adaptive-responsive)+ [General approach](/ui/adaptive-responsive/general)+ [SafeArea & MediaQuery](/ui/adaptive-responsive/safearea-mediaquery)+ [Large screens & foldables](/ui/adaptive-responsive/large-screens)+ [User input & accessibility](/ui/adaptive-responsive/input)+ [Capabilities & policies](/ui/adaptive-responsive/capabilities)+ [Automatic platform adaptations](/ui/adaptive-responsive/platform-adaptations)+ [Best practices](/ui/adaptive-responsive/best-practices)+ [Additional resources](/ui/adaptive-responsive/more-info)* Design & theming expand\_more
+                            + [Share styles with themes](/cookbook/design/themes)+ [Material design](/ui/design/material)+ [Migrate to Material 3](/release/breaking-changes/material-3-migration)+ Text expand\_more
+                                    - [Fonts & typography](/ui/design/text/typography)- [Use a custom font](/cookbook/design/fonts)- [Export fonts from a package](/cookbook/design/package-fonts)- [Google Fonts packageopen\_in\_new](https://pub.dev/packages/google_fonts)+ Custom graphics expand\_more
+                                      - [Use custom fragment shaders](/ui/design/graphics/fragment-shaders)* Interactivity expand\_more
+                              + [Add interactivity to your app](/ui/interactivity)+ Gestures expand\_more
+                                  - [Introduction](/ui/interactivity/gestures)- [Handle taps](/cookbook/gestures/handling-taps)- [Drag an object outside an app](/ui/interactivity/gestures/drag-outside)- [Drag a UI element within an app](/cookbook/effects/drag-a-widget)- [Add Material touch ripples](/cookbook/gestures/ripples)- [Implement swipe to dismiss](/cookbook/gestures/dismissible)+ Input & forms expand\_more
+                                    - [Create and style a text field](/cookbook/forms/text-input)- [Retrieve the value of a text field](/cookbook/forms/retrieve-input)- [Handle changes to a text field](/cookbook/forms/text-field-changes)- [Manage focus in text fields](/cookbook/forms/focus)- [Build a form with validation](/cookbook/forms/validation)+ [Display a snackbar](/cookbook/design/snackbars)+ [Implement actions & shortcuts](/ui/interactivity/actions-and-shortcuts)+ [Manage keyboard focus](/ui/interactivity/focus)* Assets & media expand\_more
+                                + [Add assets and images](/ui/assets/assets-and-images)+ [Display images from the internet](/cookbook/images/network-image)+ [Fade in images with a placeholder](/cookbook/images/fading-in-images)+ [Play and pause a video](/cookbook/plugins/play-video)+ [Transform assets at build time](/ui/assets/asset-transformation)* Navigation & routing expand\_more
+                                  + [Overview](/ui/navigation)+ [Add tabs to your app](/cookbook/design/tabs)+ [Navigate to a new screen and back](/cookbook/navigation/navigation-basics)+ [Send data to a new screen](/cookbook/navigation/passing-data)+ [Return data from a screen](/cookbook/navigation/returning-data)+ [Add a drawer to a screen](/cookbook/design/drawer)+ [Set up deep linking](/ui/navigation/deep-linking)+ [Set up app links for Android](/cookbook/navigation/set-up-app-links)+ [Set up universal links for iOS](/cookbook/navigation/set-up-universal-links)+ [Configure web URL strategies](/ui/navigation/url-strategies)* Animations & transitions expand\_more
+                                    + [Introduction](/ui/animations)+ [Tutorial](/ui/animations/tutorial)+ [Implicit animations](/ui/animations/implicit-animations)+ [Animate the properties of a container](/cookbook/animation/animated-container)+ [Fade a widget in and out](/cookbook/animation/opacity-animation)+ [Hero animations](/ui/animations/hero-animations)+ [Animate a page route transition](/cookbook/animation/page-route-animation)+ [Animate using a physics simulation](/cookbook/animation/physics-simulation)+ [Staggered animations](/ui/animations/staggered-animations)+ [Create a staggered menu animation](/cookbook/effects/staggered-menu-animation)+ [API overview](/ui/animations/overview)* Accessibility & internationalization expand\_more
+                                      + [Accessibility](/ui/accessibility-and-internationalization/accessibility)+ [Internationalization](/ui/accessibility-and-internationalization/internationalization)* * Beyond UI* Data & backend expand\_more
+                                            + State management expand\_more
+                                              - [Introduction](/data-and-backend/state-mgmt/intro)- [Think declaratively](/data-and-backend/state-mgmt/declarative)- [Ephemeral vs app state](/data-and-backend/state-mgmt/ephemeral-vs-app)- [Simple app state management](/data-and-backend/state-mgmt/simple)- [Options](/data-and-backend/state-mgmt/options)+ Networking & http expand\_more
+                                                - [Overview](/data-and-backend/networking)- [Fetch data from the internet](/cookbook/networking/fetch-data)- [Make authenticated requests](/cookbook/networking/authenticated-requests)- [Send data to the internet](/cookbook/networking/send-data)- [Update data over the internet](/cookbook/networking/update-data)- [Delete data on the internet](/cookbook/networking/delete-data)- [Communicate with WebSockets](/cookbook/networking/web-sockets)+ Serialization expand\_more
+                                                  - [JSON serialization](/data-and-backend/serialization/json)- [Parse JSON in the background](/cookbook/networking/background-parsing)+ Persistence expand\_more
+                                                    - [Store key-value data on disk](/cookbook/persistence/key-value)- [Read and write files](/cookbook/persistence/reading-writing-files)- [Persist data with SQLite](/cookbook/persistence/sqlite)+ Firebase expand\_more
+                                                      - [Overview](/data-and-backend/firebase)- [Add Firebase to your Flutter appopen\_in\_new](https://firebase.google.com/docs/flutter/setup)+ [Google APIs](/data-and-backend/google-apis)* App architecture expand\_more
+                                              + [Introduction](/app-architecture)+ [Architecture concepts](/app-architecture/concepts)+ [Guide to app architecture](/app-architecture/guide)+ Architecture case study expand\_more
+                                                      - [Overview](/app-architecture/case-study)- [UI layer](/app-architecture/case-study/ui-layer)- [Data layer](/app-architecture/case-study/data-layer)- [Dependency injection](/app-architecture/case-study/dependency-injection)- [Testing each layer](/app-architecture/case-study/testing)+ [Recommendations](/app-architecture/recommendations)+ [Design patterns](/app-architecture/design-patterns)* Platform integration expand\_more
+                                                + [Supported platforms](/reference/supported-platforms)+ [Build desktop apps with Flutter](/platform-integration/desktop)+ [Write platform-specific code](/platform-integration/platform-channels)+ Android expand\_more
+                                                        - [Set up Android development](/platform-integration/android/setup)- [Add a splash screen](/platform-integration/android/splash-screen)- [Add predictive back](/platform-integration/android/predictive-back)- [Bind to native code](/platform-integration/android/c-interop)- [Host a native Android view](/platform-integration/android/platform-views)- [Calling JetPack APIs](/platform-integration/android/call-jetpack-apis)- [Launch a Jetpack Compose activity](/platform-integration/android/compose-activity)- [Restore state on Android](/platform-integration/android/restore-state-android)- [Target ChromeOS with Android](/platform-integration/android/chromeos)- [Protect your app's sensitive content](/platform-integration/android/sensitive-content)+ iOS expand\_more
+                                                          - [Set up iOS development](/platform-integration/ios/setup)- [Flutter on latest iOS](/platform-integration/ios/ios-latest)- [Leverage Apple's system libraries](/platform-integration/ios/apple-frameworks)- [Add a launch screen](/platform-integration/ios/launch-screen)- [Add iOS App Clip support](/platform-integration/ios/ios-app-clip)- [Add iOS app extensions](/platform-integration/ios/app-extensions)- [Bind to native code](/platform-integration/ios/c-interop)- [Host a native iOS view](/platform-integration/ios/platform-views)- [Enable debugging on iOS](/platform-integration/ios/ios-debugging)- [Restore state on iOS](/platform-integration/ios/restore-state-ios)+ Linux expand\_more
+                                                            - [Set up Linux development](/platform-integration/linux/setup)- [Build a Linux app](/platform-integration/linux/building)+ macOS expand\_more
+                                                              - [Set up macOS development](/platform-integration/macos/setup)- [Build a macOS app](/platform-integration/macos/building)- [Bind to native code](/platform-integration/macos/c-interop)- [Host a native macOS view](/platform-integration/macos/platform-views)+ Web expand\_more
+                                                                - [Web support in Flutter](/platform-integration/web)- [Set up web development](/platform-integration/web/setup)- [Build a web app](/platform-integration/web/building)- [Compile to WebAssembly](/platform-integration/web/wasm)- [Customize app initialization](/platform-integration/web/initialization)- [Add Flutter to any web app](/platform-integration/web/embedding-flutter-web)- [Web content in Flutter](/platform-integration/web/web-content-in-flutter)- [Web renderers](/platform-integration/web/renderers)- [Display images on the web](/platform-integration/web/web-images)- [Web FAQ](/platform-integration/web/faq)+ Windows expand\_more
+                                                                  - [Set up Windows development](/platform-integration/windows/setup)- [Build a Windows app](/platform-integration/windows/building)* Packages & plugins expand\_more
+                                                  + [Use packages & plugins](/packages-and-plugins/using-packages)+ [Develop packages & plugins](/packages-and-plugins/developing-packages)+ Swift Package Manager expand\_more
+                                                        - [For app developers](/packages-and-plugins/swift-package-manager/for-app-developers)- [For plugin authors](/packages-and-plugins/swift-package-manager/for-plugin-authors)+ + [Flutter Favorites](/packages-and-plugins/favorites)+ [Package repositoryopen\_in\_new](https://pub.dev/flutter)* Testing & debugging expand\_more
+                                                    + Testing+ [Overview](/testing/overview)+ Unit testing expand\_more
+                                                          - [Introduction](/cookbook/testing/unit/introduction)- [Mock dependencies](/cookbook/testing/unit/mocking)+ Widget testing expand\_more
+                                                            - [Introduction](/cookbook/testing/widget/introduction)- [Find widgets](/cookbook/testing/widget/finders)- [Simulate scrolling](/cookbook/testing/widget/scrolling)- [Simulate user interaction](/cookbook/testing/widget/tap-drag)+ Integration testing expand\_more
+                                                              - [Introduction](/cookbook/testing/integration/introduction)- [Write and run an integration test](/testing/integration-tests)- [Profile an integration test](/cookbook/testing/integration/profiling)+ [Test a plugin](/testing/testing-plugins)+ [Handle plugin code in tests](/testing/plugins-in-tests)+ Debugging+ [Debugging tools](/testing/debugging)+ [Debug your app programmatically](/testing/code-debugging)+ [Use a native language debugger](/testing/native-debugging)+ [Common Flutter errors](/testing/common-errors)+ [Handle errors](/testing/errors)+ [Report errors to a service](/cookbook/maintenance/error-reporting)* Performance & optimization expand\_more
+                                                      + [Overview](/perf)+ [Impeller](/perf/impeller)+ [Performance best practices](/perf/best-practices)+ [App size](/perf/app-size)+ [Deferred components](/perf/deferred-components)+ [Rendering performance](/perf/rendering-performance)+ [Performance profiling](/perf/ui-performance)+ [Performance profiling for web](/perf/web-performance)+ [Performance metrics](/perf/metrics)+ [Concurrency and isolates](/perf/isolates)+ [Performance FAQ](/perf/faq)+ [Appendix](/perf/appendix)* Deployment expand\_more
+                                                        + [Obfuscate Dart code](/deployment/obfuscate)+ [Create app flavors for Android](/deployment/flavors)+ [Create app flavors for iOS and macOS](/deployment/flavors-ios)+ [Build and release an Android app](/deployment/android)+ [Build and release an iOS app](/deployment/ios)+ [Build and release a macOS app](/deployment/macos)+ [Build and release a Linux app](/deployment/linux)+ [Build and release a Windows app](/deployment/windows)+ [Build and release a web app](/deployment/web)+ [Set up continuous deployment](/deployment/cd)* Add to an existing app expand\_more
+                                                          + [Introduction](/add-to-app)+ Add to an Android app expand\_more
+                                                              - [Set up Android project](/add-to-app/android/project-setup)- [Add a single Flutter screen](/add-to-app/android/add-flutter-screen)- [Add a Flutter Fragment](/add-to-app/android/add-flutter-fragment)- [Add a Flutter View](/add-to-app/android/add-flutter-view)- [Use a Flutter plugin](/add-to-app/android/plugin-setup)+ Add to an iOS app expand\_more
+                                                                - [Set up iOS project](/add-to-app/ios/project-setup)- [Add a single Flutter screen](/add-to-app/ios/add-flutter-screen)+ [Add to a web app](/platform-integration/web/embedding-flutter-web)+ [Debug embedded Flutter module](/add-to-app/debugging)+ [Add multiple Flutter instances](/add-to-app/multiple-flutters)+ [Loading sequence and performance](/add-to-app/performance)* * Tools & editors expand\_more
+                                                              + [Android Studio & IntelliJ](/tools/android-studio)+ [Visual Studio Code](/tools/vs-code)+ DevTools expand\_more
+                                                                    - [Overview](/tools/devtools)- [Run from Android Studio & IntelliJ](/tools/devtools/android-studio)- [Run from VS Code](/tools/devtools/vscode)- [Run from command line](/tools/devtools/cli)- [Flutter inspector](/tools/devtools/inspector)- [Legacy Flutter inspector](/tools/devtools/legacy-inspector)- [Performance view](/tools/devtools/performance)- [CPU Profiler view](/tools/devtools/cpu-profiler)- [Memory view](/tools/devtools/memory)- [Debug console view](/tools/devtools/console)- [Network view](/tools/devtools/network)- [Debugger](/tools/devtools/debugger)- [Logging view](/tools/devtools/logging)- [App size tool](/tools/devtools/app-size)- [DevTools extensions](/tools/devtools/extensions)- [Validate deep links](/tools/devtools/deep-links)- [Release notes](/tools/devtools/release-notes)+ [Flutter Widget Previewer](/tools/widget-previewer)+ [Flutter Property Editor](/tools/property-editor)+ [SDK overview](/tools/sdk)+ [Flutter's pubspec options](/tools/pubspec)+ [Automated fixes](/tools/flutter-fix)+ [Code formatting](/tools/formatting)* Flutter concepts expand\_more
+                                                                + [Architectural overview](/resources/architectural-overview)+ [Inside Flutter](/resources/inside-flutter)+ [Understanding constraints](/ui/layout/constraints)+ [Flutter's build modes](/testing/build-modes)+ [Hot reload](/tools/hot-reload)* Resources expand\_more
+                                                                  + [FAQ](/resources/faq)+ [Books](/resources/books)+ [Videos](/resources/videos)+ [Courses](/resources/courses)+ [Learn Dart](/resources/bootstrap-into-dart)+ [Get support](/resources/support)+ + Contribute expand\_more
+                                                                                  - [Contribute to Flutter](/contribute)- [Create useful bug reports](/resources/bug-reports)- [Discover proposed features](/resources/design-docs)+ Reference expand\_more
+                                                                                    - [Who is Dash?](/dash)- [Widget index](/reference/widgets)- [Create a new app](/reference/create-new-app)- [flutter CLI](/reference/flutter-cli)- [API docsopen\_in\_new](https://api.flutter.dev)
+
+list On this page  chevron\_right Layouts 
+
+[vertical\_align\_top Layouts](#document-title) 
+
+Layouts
+=======
+
+1. [Get started](/get-started) chevron\_right- [Fundamentals](/get-started/fundamentals) chevron\_right- [Layouts](/get-started/fundamentals/layout)
+
+Given that Flutter is a UI toolkit, you'll spend a lot of time creating layouts with Flutter widgets. In this section, you'll learn how to build layouts with some of the most common layout widgets. You'll use Flutter DevTools (also called Dart DevTools) to understand how Flutter is creating your layout. Finally, you'll encounter and debug one of Flutter's most common layout errors, the dreaded "unbounded constraints" error.
+
+Understanding layout in Flutter
+-------------------------------
+
+[#](#understanding-layout-in-flutter)
+
+The core of Flutter's layout mechanism is widgets. In Flutter, almost everything is a widget — even layout models are widgets. The images, icons, and text that you see in a Flutter app are all widgets. Things you don't see are also widgets, such as the rows, columns, and grids that arrange, constrain, and align the visible widgets.
+
+You create a layout by composing widgets to build more complex widgets. For example, the diagram below shows 3 icons with a label under each one, and the corresponding widget tree:
+
+![A diagram that shows widget composition with a series of lines and nodes.](/assets/images/docs/fwe/layout/simple_row_column_widget_tree.png)
+
+In this example, there's a row of 3 columns where each column contains an icon and a label. All layouts, no matter how complex, are created by composing these layout widgets.
+
+### Constraints
+
+[#](#constraints)
+
+Understanding constraints in Flutter is an important part of understanding how layout works in Flutter.
+
+Layout, in a general sense, refers to the size of the widgets and their positions on the screen. The size and position of any given widget is constrained by its parent; it can't have any size it wants, and it doesn't decide its own place on the screen. Instead, size and position are determined by a conversation between a widget and its parent.
+
+In the simplest example, the layout conversation looks like this:
+
+1. A widget receives its constraints from its parent.- A constraint is just a set of 4 doubles: a minimum and maximum width, and a minimum and maximum height.- The widget determines what size it should be within those constraints, and passes its width and height back to the parent.- The parent looks at the size it wants to be and how it should be aligned, and sets the widget's position accordingly. Alignment can be set explicitly, using a variety of widgets like `Center`, and the alignment properties on `Row` and `Column`.
+
+In Flutter, this layout conversation is often expressed with the simplified phrase, "Constraints go down. Sizes go up. Parent sets the position."
+
+### Box types
+
+[#](#box-types)
+
+In Flutter, widgets are rendered by their underlying [`RenderBox`](https://api.flutter.dev/flutter/rendering/RenderBox-class.html) objects. These objects determine how to handle the constraints they're passed.
+
+Generally, there are three kinds of boxes:
+
+* Those that try to be as big as possible. For example, the boxes used by [`Center`](https://api.flutter.dev/flutter/widgets/Center-class.html) and [`ListView`](https://api.flutter.dev/flutter/widgets/ListView-class.html).* Those that try to be the same size as their children. For example, the boxes used by [`Transform`](https://api.flutter.dev/flutter/widgets/Transform-class.html) and [`Opacity`](https://api.flutter.dev/flutter/widgets/Opacity-class.html)* Those that try to be a particular size. For example, the boxes used by [`Image`](https://api.flutter.dev/flutter/widgets/Image-class.html) and [`Text`](https://api.flutter.dev/flutter/widgets/Text-class.html).
+
+Some widgets, for example [`Container`](https://api.flutter.dev/flutter/widgets/Container-class.html), vary from type to type based on their constructor arguments. The `Container` constructor defaults to trying to be as big as possible, but if you give it a width, for instance, it tries to honor that and be that particular size.
+
+Others, for example [`Row`](https://api.flutter.dev/flutter/widgets/Row-class.html) and [`Column`](https://api.flutter.dev/flutter/widgets/Column-class.html) (flex boxes) vary based on the constraints they are given. Read more about flex boxes and constraints in the [Understanding Constraints article](/ui/layout/constraints).
+
+Lay out a single widget
+-----------------------
+
+[#](#lay-out-a-single-widget)
+
+To lay out a single widget in Flutter, wrap a visible widget, such as `Text` or `Image` with a widget that can change its position on a screen, such as a `Center` widget.
+
+*info* Note
+
+The examples on the page use a widget called `BorderedImage`. This is a custom widget, and is used here to hide the code that isn't relevant to this topic.
+
+dart
+
+```
+Widget build(BuildContext context) {
+  return Center(
+    child: BorderedImage(),
+  );
+}
+```
+
+The following figure shows a widget that isn't aligned on the left, and a widget that has been centered on the right.
+
+![A screenshot of a centered widget and a screenshot of a widget that hasn't been centered.](/assets/images/docs/fwe/layout/center.png)
+
+All layout widgets have either of the following:
+
+* A `child` property if they take a single child—for example, `Center`, `Container`, or `Padding`.* A `children` property if they take a list of widgets—for example, `Row`, `Column`, `ListView`, or `Stack`.
+
+### Container
+
+[#](#container)
+
+`Container` is a convenience widget that's made up of several widgets responsible for layout, painting, positioning, and sizing. In regard to layout, it can be used to add padding and margins to a widget. There is also a `Padding` widget that could be used here to the same effect. The following example uses a `Container`.
+
+dart
+
+```
+Widget build(BuildContext context) {
+  return Container(
+    padding: EdgeInsets.all(16.0),
+    child: BorderedImage(),
+  );
+}
+```
+
+The following figure shows a widget without padding on the left, and a widget with padding on the right.
+
+![A screenshot of a widget with padding and a screenshot of a widget without padding.](/assets/images/docs/fwe/layout/padding.png)
+
+To create more complex layouts in Flutter, you can compose many widgets. For example, you can combine `Container` and `Center`:
+
+dart
+
+```
+Widget build(BuildContext context) {
+  return Center(
+    Container(
+      padding: EdgeInsets.all(16.0),
+      child: BorderedImage(),
+    ),
+  );
+}
+```
+
+Layout multiple widgets vertically or horizontally
+--------------------------------------------------
+
+[#](#layout-multiple-widgets-vertically-or-horizontally)
+
+One of the most common layout patterns is to arrange widgets vertically or horizontally. You can use a `Row` widget to arrange widgets horizontally, and a `Column` widget to arrange widgets vertically. The first figure on this page used both.
+
+This is the most basic example of using a `Row` widget.
+
+dart
+
+```
+Widget build(BuildContext context) {
+  return Row(
+    children: [
+      BorderedImage(),
+      BorderedImage(),
+      BorderedImage(),
+    ],
+  );
+}
+```
+
+![A screenshot of a row widget with three children](/assets/images/docs/fwe/layout/row.png)
+
+This figure shows a row widget with three children.
+
+Each child of `Row` or `Column` can be rows and columns themselves, combining to make a complex layout. For example, you could add labels to each of the images in the example above using columns.
+
+dart
+
+```
+Widget build(BuildContext context) {
+  return Row(
+    children: [
+      Column(
+        children: [
+          BorderedImage(),
+          Text('Dash 1'),
+        ],
+      ),
+      Column(
+        children: [
+          BorderedImage(),
+          Text('Dash 2'),
+        ],
+      ),
+      Column(
+        children: [
+          BorderedImage(),
+          Text('Dash 3'),
+        ],
+      ),
+    ],
+  );
+}
+```
+
+![A screenshot of a row of three widgets, each of which has a label underneath it.](/assets/images/docs/fwe/layout/nested_row_column.png)
+
+This figure shows a row widget with three children, each of which is a column.
+
+### Align widgets within rows and columns
+
+[#](#align-widgets-within-rows-and-columns)
+
+In the following example, the widgets are each 200 pixels wide, and the viewport is 700 pixels wide. The widgets are consequently aligned to the left, one after the other, with all the extra space on the right.
+
+![A diagram that shows three widgets laid out in a row. Each child widget is labeled as 200px wide, and the blank space on the right is labeled as 100px wide.](/assets/images/docs/fwe/layout/left_alignment.png)
+
+You control how a row or column aligns its children using the `mainAxisAlignment` and `crossAxisAlignment` properties. For a row, the main axis runs horizontally and the cross axis runs vertically. For a column, the main axis runs vertically and the cross axis runs horizontally.
+
+![A diagram that shows the direction of the main axis and cross axis in both rows and columns](/assets/images/docs/fwe/layout/axes_diagram.png)
+
+Setting the main axis alignment to `spaceEvenly` divides the free horizontal space evenly between, before, and after each image.
+
+dart
+
+```
+Widget build(BuildContext context) {
+  return Row(
+    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+    children: [
+      BorderedImage(),
+      BorderedImage(),
+      BorderedImage(),
+    ],
+  );
+}
+```
+
+![A screenshot of three widgets, spaced evenly from each other.](/assets/images/docs/fwe/layout/space_evenly.png)
+
+This figure shows a row widget with three children, which are aligned with the MainAxisAlignment.spaceEvenly constant.
+
+Columns work the same way as rows. The following example shows a column of 3 images, each is 100 pixels high. The height of the render box (in this case, the entire screen) is more than 300 pixels, so setting the main axis alignment to `spaceEvenly` divides the free vertical space evenly between, above, and below each image.
+
+![A screenshot of a three widgets laid out vertically, using a column widget.](/assets/images/docs/fwe/layout/col_space_evenly.png)
+
+The [`MainAxisAlignment`](https://api.flutter.dev/flutter/rendering/MainAxisAlignment.html) and [`CrossAxisAlignment`](https://api.flutter.dev/flutter/rendering/CrossAxisAlignment.html) enums offer a variety of constants for controlling alignment.
+
+Flutter includes other widgets that can be used for alignment, notably the `Align` widget.
+
+### Sizing widgets within rows and columns
+
+[#](#sizing-widgets-within-rows-and-columns)
+
+When a layout is too large to fit a device, a yellow and black striped pattern appears along the affected edge. In this example, the viewport is 400 pixels wide, and each child is 150 pixels wide.
+
+![A screenshot of a row of widgets that are wider than their viewport.](/assets/images/docs/fwe/layout/overflowing_row.png)
+
+Widgets can be sized to fit within a row or column by using the `Expanded` widget. To fix the previous example where the row of images is too wide for its render box, wrap each image with an [`Expanded`](https://api.flutter.dev/flutter/widgets/Expanded-class.html) widget.
+
+dart
+
+```
+Widget build(BuildContext context) {
+  return const Row(
+    children: [
+      Expanded(
+        child: BorderedImage(width: 150, height: 150),
+      ),
+      Expanded(
+        child: BorderedImage(width: 150, height: 150),
+      ),
+      Expanded(
+        child: BorderedImage(width: 150, height: 150),
+      ),
+    ],
+  );
+}
+```
+
+![A screenshot of three widgets, which take up exactly the amount of space available on the main axis. All three widgets are equal width.](/assets/images/docs/fwe/layout/expanded_row.png)
+
+This figure shows a row widget with three children that are wrapped with `Expanded` widgets.
+
+The `Expanded` widget can also dictate how much space a widget should take up relative to its siblings. For example, perhaps you want a widget to occupy twice as much space as its siblings. For this, use the `Expanded` widgets `flex` property, an integer that determines the flex factor for a widget. The default flex factor is 1. The following code sets the flex factor of the middle image to 2:
+
+dart
+
+```
+Widget build(BuildContext context) {
+  return const Row(
+    children: [
+      Expanded(
+        child: BorderedImage(width: 150, height: 150),
+      ),
+      Expanded(
+        flex: 2,
+        child: BorderedImage(width: 150, height: 150),
+      ),
+      Expanded(
+        child: BorderedImage(width: 150, height: 150),
+      ),
+    ],
+  );
+}
+```
+
+![A screenshot of three widgets, which take up exactly the amount of space available on the main axis. The widget in the center is twice as wide as the widgets on the left and right.](/assets/images/docs/fwe/layout/flex_2_row.png)
+
+This figure shows a row widget with three children which are wrapped with `Expanded` widgets. The center child has it's `flex` property set to 2.
+
+DevTools and debugging layout
+-----------------------------
+
+[#](#devtools-and-debugging-layout)
+
+In certain situations, a box's constraint is unbounded, or infinite. This means that either the maximum width or the maximum height is set to [`double.infinity`](https://api.flutter.dev/flutter/dart-core/double/infinity-constant.html). A box that tries to be as big as possible won't function usefully when given an unbounded constraint and, in debug mode, throws an exception.
+
+The most common case where a render box ends up with an unbounded constraint is within a flex box ([`Row`](https://api.flutter.dev/flutter/widgets/Row-class.html) or [`Column`](https://api.flutter.dev/flutter/widgets/Column-class.html)), and within a scrollable region (such as [`ListView`](https://api.flutter.dev/flutter/widgets/ListView-class.html) and other [`ScrollView`](https://api.flutter.dev/flutter/widgets/Scrollview-class.html) subclasses). `ListView`, for example, tries to expand to fit the space available in its cross-direction (perhaps it's a vertically-scrolling block and tries to be as wide as its parent). If you nest a vertically scrolling `ListView` inside a horizontally scrolling `ListView`, the inner list tries to be as wide as possible, which is infinitely wide, since the outer one is scrollable in that direction.
+
+Perhaps the most common error you'll run into while building a Flutter application is due to incorrectly using layout widgets, and is referred to as the "unbounded constraints" error.
+
+If there was only one type error you should be prepared to confront when you first start building Flutter apps, it would be this one.
+
+[Watch on YouTube in a new tab: "Decoding Flutter: Unbounded height and width"](https://www.youtube.com/watch/jckqXR5CrPI)
+
+*info* The Widget inspector
+
+Flutter has a robust suite of DevTools that help you work with any number of aspects of Flutter development. The "Widget Inspector" tool is particularly useful when building and debugging layouts (and working with widgets in general).
+
+[Learn more about the Flutter inspector](/tools/devtools/inspector).
+
+Scrolling widgets
+-----------------
+
+[#](#scrolling-widgets)
+
+Flutter has many built-in widgets that automatically scroll and also offers a variety of widgets that you can customize to create specific scrolling behavior. On this page, you'll see how to use the most common widget for making any page scrollable, as well as a widget for creating scrollable lists.
+
+### ListView
+
+[#](#listview)
+
+`ListView` is a column-like widget that automatically provides scrolling when its content is longer than its render box. The most basic way to use a `ListView` is very similar to using a `Column` or `Row`. Unlike a column or row, a `ListView` requires its children to take up all the available space on the cross axis, as shown in the example below.
+
+dart
+
+```
+Widget build(BuildContext context) {
+  return ListView(
+    children: const [
+      BorderedImage(),
+      BorderedImage(),
+      BorderedImage(),
+    ],
+  );
+}
+```
+
+![A screenshot of three widgets laid out vertically. They have expanded to take up all available space on the cross axis.](/assets/images/docs/fwe/layout/basic_listview.png)
+
+This figure shows a ListView widget with three children.
+
+`ListView`s are commonly used when you have an unknown or very large (or infinite) number of list items. When this is the case, it's best to use the `ListView.builder` constructor. The builder constructor only builds the children that are currently visible on screen.
+
+In the following example, the `ListView` is displaying a list of to-do items. The todo items are being fetched from a repository, and therefore the number of todos is unknown.
+
+dart
+
+```
+final List<ToDo> items = Repository.fetchTodos();
+
+Widget build(BuildContext context) {
+  return ListView.builder(
+    itemCount: items.length,
+    itemBuilder: (context, idx) {
+      var item = items[idx];
+      return Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Text(item.description),
+            Text(item.isComplete),
+          ],
+        ),
+      );
+    },
+  );
+}
+```
+
+![A screenshot of several widgets laid out vertically. They have expanded to take up all available space on the cross axis.](/assets/images/docs/fwe/layout/listview_builder.png)
+
+This figure shows the ListView.builder constructor to display an unknown number of children.
+
+Adaptive layouts
+----------------
+
+[#](#adaptive-layouts)
+
+Because Flutter is used to create mobile, tablet, desktop, *and* web apps, it's likely you'll need to adjust your application to behave differently depending on things like screen size or input device. This is referred to as making an app *adaptive* and *responsive*.
+
+One of the most useful widgets in making adaptive layouts is the [`LayoutBuilder`](https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html) widget. `LayoutBuilder` is one of many widgets that uses the "builder" pattern in Flutter.
+
+### The builder pattern
+
+[#](#the-builder-pattern)
+
+In Flutter, you'll find several widgets that use the word "builder" in their names or in their constructors. The following list isn't exhaustive:
+
+* [`ListView.builder`](https://api.flutter.dev/flutter/widgets/ListView/ListView.builder.html)* [`GridView.builder`](https://api.flutter.dev/flutter/widgets/GridView/GridView.builder.html)* [`Builder`](https://api.flutter.dev/flutter/widgets/Builder-class.html)* [`LayoutBuilder`](https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html)* [`FutureBuilder`](https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html)
+
+These different "builders" are useful for solving different problems. For example, the `ListView.builder` constructor is primarily used to lazily render items in a list, while the `Builder` widget is useful for gaining access to the `BuildContext` in deeply widget code.
+
+Despite their different use cases, these builders are unified by how they work. Builder widgets and builder constructors all have arguments called 'builder' (or something similar, like `itemBuilder` in the case of `ListView.builder`), and the builder argument always accepts a callback. This callback is a **builder function**. Builder functions are callbacks that pass data to the parent widget, and the parent widget uses those arguments to build and return the child widget. Builder functions always pass in at least one argument–the build context– and generally at least one other argument.
+
+For example, the `LayoutBuilder` widget is used to create responsive layouts based on the size of the viewport. The builder callback body is passed the [`BoxConstraints`](https://api.flutter.dev/flutter/rendering/BoxConstraints-class.html) that it receives from its parent, along with the widgets 'BuildContext'. With these constraints, you can return a different widget based on the available space.
+
+[Watch on YouTube in a new tab: "LayoutBuilder (Flutter Widget of the Week)"](https://www.youtube.com/watch/IYDVcriKjsw)
+
+In the following example, the widget returned by the `LayoutBuilder` changes based on whether the viewport is less than or equal 600 pixels, or greater than 600 pixels.
+
+dart
+
+```
+Widget build(BuildContext context) {
+  return LayoutBuilder(
+    builder: (BuildContext context, BoxConstraints constraints) {
+      if (constraints.maxWidth <= 600) {
+        return _MobileLayout();
+      } else {
+        return _DesktopLayout();
+      }
+    },
+  );
+}
+```
+
+![Two screenshots, in which one shows a narrow layout and the other shows a wide layout.](/assets/images/docs/fwe/layout/layout_builder.png)
+
+This figure shows a narrow layout, which lays out its children vertically, and a wider layout, which lays out its children in a grid.
+
+Meanwhile, the `itemBuilder` callback on the `ListView.builder` constructor is passed the build context and an `int`. This callback is called once for every item in the list, and the int argument represents the index of the list item. The first time the itemBuilder callback is called when Flutter is building the UI, the int passed to the function is 0, the second time it's 1, and so on.
+
+This allows you to provide specific configuration based on the index. Recall the example above using the`ListView.builder` constructor:
+
+dart
+
+```
+final List<ToDo> items = Repository.fetchTodos();
+
+Widget build(BuildContext context) {
+  return ListView.builder(
+    itemCount: items.length,
+    itemBuilder: (context, idx) {
+      var item = items[idx];
+      return Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Text(item.description),
+            Text(item.isComplete),
+          ],
+        ),
+      );
+    },
+  );
+}
+```
+
+This example code uses the index that's passed into the builder to grab the correct todo from the list of items, and then displays that todo's data in the widget that is returned from the builder.
+
+To exemplify this, the following example changes the background color of every other list item.
+
+dart
+
+```
+final List<ToDo> items = Repository.fetchTodos();
+
+Widget build(BuildContext context) {
+  return ListView.builder(
+    itemCount: items.length,
+    itemBuilder: (context, idx) {
+      var item = items[idx];
+      return Container(
+        color: idx % 2 == 0 ? Colors.lightBlue : Colors.transparent,
+        padding: const EdgeInsets.all(8.0),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Text(item.description),
+            Text(item.isComplete),
+          ],
+        ),
+      );
+    },
+  );
+}
+```
+
+![This figure shows a `ListView`, in which its children have alternating background colors. The background colors were determined programmatically based on the index of the child within the `ListView`.](/assets/images/docs/fwe/layout/alternating_list_items.png)
+
+This figure shows a `ListView`, in which its children have alternating background colors. The background colors were determined programmatically based on the index of the child within the `ListView`.
+
+Additional resources
+--------------------
+
+[#](#additional-resources)
+
+* Common layout widgets and concepts
+  + Video: [OverlayPortal—Flutter Widget of the Week](https://youtube.com/watch?v=S0Ylpa44OAQ)+ Video: [Stack—Flutter Widget of the Week](https://youtube.com/watch?v=liEGSeD3Zt8)+ Tutorial: [Layouts in Flutter](/ui/layout)+ Documentation: [Stack documentation](/ui/layout#stack)* Sizing and positioning widgets
+    + Video: [Expanded—Flutter Widget of the Week](https://youtube.com/watch?v=_rnZaagadyo)+ Video: [Flexible—Flutter Widget of the Week](https://youtube.com/watch?v=CI7x0mAZiY0)+ Video: [Intrinsic widgets—Decoding Flutter](https://youtube.com/watch?v=Si5XJ_IocEs)* Scrollable widgets
+      + Example code: [Work with long lists](/cookbook/lists/long-lists)+ Example code: [Create a horizontal list](/cookbook/lists/horizontal-list)+ Example code: [Create a grid list](/cookbook/lists/grid-lists)+ Video: [ListView—Flutter Widget of the Week](https://youtube.com/watch?v=KJpkjHGiI5A)* Adaptive Apps
+        + Tutorial: [Adaptive Apps codelab](https://codelabs.developers.google.com/codelabs/flutter-adaptive-app)+ Video: [MediaQuery—Flutter Widget of the Week](https://youtube.com/watch?v=A3WrA4zAaPw)+ Video: [Building platform adaptive apps](https://youtube.com/watch?v=RCdeSKVt7LI)+ Video: [Builder—Flutter Widget of the Week](https://youtube.com/watch?v=xXNOkIuSYuA)
+
+### API reference
+
+[#](#api-reference)
+
+The following resources explain individual APIs.
+
+* [`Builder`](https://api.flutter.dev/flutter/widgets/Builder-class.html)* [`Row`](https://api.flutter.dev/flutter/widgets/Row-class.html)* [`Column`](https://api.flutter.dev/flutter/widgets/Column-class.html)* [`Expanded`](https://api.flutter.dev/flutter/widgets/Expanded-class.html)* [`Flexible`](https://api.flutter.dev/flutter/widgets/Flexible-class.html)* [`ListView`](https://api.flutter.dev/flutter/widgets/ListView-class.html)* [`Stack`](https://api.flutter.dev/flutter/widgets/Stack-class.html)* [`Positioned`](https://api.flutter.dev/flutter/widgets/Positioned-class.html)* [`MediaQuery`](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html)* [`LayoutBuilder`](https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html)
+
+Feedback
+--------
+
+[#](#feedback)
+
+As this section of the website is evolving, we [welcome your feedback](https://google.qualtrics.com/jfe/form/SV_6A9KxXR7XmMrNsy?page=%22layout%22)! [chevron\_left
+
+Previous Widgets](/get-started/fundamentals/widgets)[Next State management
+
+chevron\_right](/get-started/fundamentals/state-management) 
+
+Was this page's content helpful?
+
+thumb\_up thumb\_down
+
+Thank you for your feedback!
+
+ [feedback Provide details](https://github.com/flutter/website/issues/new?template=1_page_issue.yml&&page-url=https://docs.flutter.dev/get-started/fundamentals/layout/&page-source=https://github.com/flutter/website/tree/main/src/content/get-started/fundamentals/layout.md)
+
+Thank you for your feedback! Please let us know what we can do to improve.
+
+ [bug\_report Provide details](https://github.com/flutter/website/issues/new?template=1_page_issue.yml&&page-url=https://docs.flutter.dev/get-started/fundamentals/layout/&page-source=https://github.com/flutter/website/tree/main/src/content/get-started/fundamentals/layout.md)
+
+Unless stated otherwise, the documentation on this site reflects the latest stable version of Flutter. Page last updated on 2025-01-31. [View source](https://github.com/flutter/website/tree/main/src/content/get-started/fundamentals/layout.md) or [report an issue](https://github.com/flutter/website/issues/new?template=1_page_issue.yml&&page-url=https://docs.flutter.dev/get-started/fundamentals/layout/&page-source=https://github.com/flutter/website/tree/main/src/content/get-started/fundamentals/layout.md "Report an issue with this page").
+
+[![Flutter logo](/assets/images/branding/flutter/logo+text/horizontal/white.svg)](https://flutter.dev)
+
+Except as otherwise noted, this site is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/), and code samples are licensed under the [3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause).
+
+* [Terms](/tos "Terms of use")* [Brand](/brand "Brand usage guidelines")* [Privacy](https://policies.google.com/privacy "Privacy policy")* [Security](/security "Security philosophy and practices")
+
+   

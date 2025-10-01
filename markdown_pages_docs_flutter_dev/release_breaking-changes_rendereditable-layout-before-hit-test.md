@@ -1,0 +1,154 @@
+The RenderEditable needs to be laid out before hit testing
+==========================================================
+
+1. [Stay up to date](/release) chevron\_right- [Breaking changes](/release/breaking-changes) chevron\_right- [The RenderEditable needs to be laid out before hit testing](/release/breaking-changes/rendereditable-layout-before-hit-test)
+
+Summary
+-------
+
+[#](#summary)
+
+Instances of `RenderEditable` must be laid out before processing hit testing. Trying to hit-test a `RenderEditable` object before layout results in an assertion such as the following:
+
+```
+Failed assertion: line 123 pos 45: '!debugNeedsLayout': is not true.
+```
+
+Context
+-------
+
+[#](#context)
+
+To support gesture recognizers in selectable text, the `RenderEditable` requires the layout information for its text spans to determine which text span receives the pointer event. (Before this change, `RenderEditable` objects didn't take their text into account when evaluating hit tests.) To implement this, layout was made a prerequisite for performing hit testing on a `RenderEditable` object.
+
+In practice, this is rarely an issue. The widget library ensures that layout is performed before any hit test on all render objects. This problem is only likely to be seen in code that directly interacts with render objects, for example in tests of custom render objects.
+
+Migration guide
+---------------
+
+[#](#migration-guide)
+
+If you see the `'!debugNeedsLayout': is not true` assertion error while hit testing the `RenderEditable`, lay out the `RenderEditable` before doing so.
+
+Code before migration:
+
+dart
+
+```
+import 'package:flutter/rendering.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  test('attach and detach correctly handle gesture', () {
+    final RenderEditable editable = RenderEditable(
+      textDirection: TextDirection.ltr,
+      offset: ViewportOffset.zero(),
+      textSelectionDelegate: FakeEditableTextState(),
+      startHandleLayerLink: LayerLink(),
+      endHandleLayerLink: LayerLink(),
+    );
+    final PipelineOwner owner = PipelineOwner(onNeedVisualUpdate: () {});
+    editable.attach(owner);
+    // This throws an assertion error because
+    // the RenderEditable hasn't been laid out.
+    editable.handleEvent(const PointerDownEvent(),
+        BoxHitTestEntry(editable, const Offset(10, 10)));
+    editable.detach();
+  });
+}
+
+class FakeEditableTextState extends TextSelectionDelegate {
+  @override
+  TextEditingValue textEditingValue;
+  @override
+  void hideToolbar() {}
+  @override
+  void bringIntoView(TextPosition position) {}
+}
+```
+
+Code after migration:
+
+dart
+
+```
+import 'package:flutter/rendering.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  test('attach and detach correctly handle gesture', () {
+    final RenderEditable editable = RenderEditable(
+      textDirection: TextDirection.ltr,
+      offset: ViewportOffset.zero(),
+      textSelectionDelegate: FakeEditableTextState(),
+      startHandleLayerLink: LayerLink(),
+      endHandleLayerLink: LayerLink(),
+    );
+    // Lay out the RenderEditable first.
+    editable.layout(BoxConstraints.loose(const Size(1000.0, 1000.0)));
+    final PipelineOwner owner = PipelineOwner(onNeedVisualUpdate: () {});
+    editable.attach(owner);
+    editable.handleEvent(const PointerDownEvent(),
+        BoxHitTestEntry(editable, const Offset(10, 10)));
+    editable.detach();
+  });
+}
+
+class FakeEditableTextState extends TextSelectionDelegate {
+  @override
+  TextEditingValue textEditingValue;
+  @override
+  void hideToolbar() {}
+  @override
+  void bringIntoView(TextPosition position) {}
+}
+```
+
+Timeline
+--------
+
+[#](#timeline)
+
+Landed in version: 1.18.0  
+ In stable release: 1.20
+
+References
+----------
+
+[#](#references)
+
+API documentation:
+
+* [`RenderEditable`](https://api.flutter.dev/flutter/rendering/RenderEditable-class.html)
+
+Relevant issue:
+
+* [Issue 43494](https://github.com/flutter/flutter/issues/43494): SelectableText.rich used along with TapGestureRecognizer isn't working
+
+Relevant PR:
+
+* [PR 54479: Enable gesture recognizer in selectable rich text](https://github.com/flutter/flutter/pull/54479)
+
+Was this page's content helpful?
+
+thumb\_up thumb\_down
+
+Thank you for your feedback!
+
+ [feedback Provide details](https://github.com/flutter/website/issues/new?template=1_page_issue.yml&&page-url=https://docs.flutter.dev/release/breaking-changes/rendereditable-layout-before-hit-test/&page-source=https://github.com/flutter/website/tree/main/src/content/release/breaking-changes/rendereditable-layout-before-hit-test.md)
+
+Thank you for your feedback! Please let us know what we can do to improve.
+
+ [bug\_report Provide details](https://github.com/flutter/website/issues/new?template=1_page_issue.yml&&page-url=https://docs.flutter.dev/release/breaking-changes/rendereditable-layout-before-hit-test/&page-source=https://github.com/flutter/website/tree/main/src/content/release/breaking-changes/rendereditable-layout-before-hit-test.md)
+
+Unless stated otherwise, the documentation on this site reflects the latest stable version of Flutter. Page last updated on 2024-04-04. [View source](https://github.com/flutter/website/tree/main/src/content/release/breaking-changes/rendereditable-layout-before-hit-test.md) or [report an issue](https://github.com/flutter/website/issues/new?template=1_page_issue.yml&&page-url=https://docs.flutter.dev/release/breaking-changes/rendereditable-layout-before-hit-test/&page-source=https://github.com/flutter/website/tree/main/src/content/release/breaking-changes/rendereditable-layout-before-hit-test.md "Report an issue with this page").
+
+[![Flutter logo](/assets/images/branding/flutter/logo+text/horizontal/white.svg)](https://flutter.dev)
+
+Except as otherwise noted, this site is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/), and code samples are licensed under the [3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause).
+
+* [Terms](/tos "Terms of use")* [Brand](/brand "Brand usage guidelines")* [Privacy](https://policies.google.com/privacy "Privacy policy")* [Security](/security "Security philosophy and practices")
+
+   
